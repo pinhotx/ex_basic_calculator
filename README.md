@@ -1,21 +1,11 @@
 # BasicCalculator
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `basic_calculator` to your list of dependencies in `mix.exs`:
+**A basic iex> terminal-based calculator with the 4 basic math operations: Addition, Subtraction, Multiplication and Division**
 
 ```elixir
-def deps do
-  [
-    {:basic_calculator, "~> 0.1.0"}
-  ]
-end
+iex(1)> BasicCalculator.add(6,4)
+{:ok, 10}
+iex(2)> BasicCalculator.subtract(4,6)
+{:ok, -2}
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/basic_calculator>.
 
